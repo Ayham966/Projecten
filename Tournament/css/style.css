@@ -1,0 +1,177 @@
+nav {
+    background-color: #5c3333;
+    color: #ffffff;
+}
+.nav-item .nav-link {
+    color: #f3f3f3;
+    font-size: 12pt;
+}
+/* -------- Home page --------- */
+#home-photo {
+    min-height: 600px;
+    background-image: url("../images/bbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:  serif;
+    position: relative;
+    box-shadow: 1px 1px 1px 2px #44fa46;
+}
+
+#home-photo .overlay {
+    background-color: rgba(0, 0, 0, 0.36);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+#home-photo .head-text {
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    transform: translate(50% , 50%);
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    color: white;
+    z-index: 2;
+}
+
+#home-photo button { padding: 20px; margin: 10px;}
+/* -------- End home --------- */
+
+/* -------- Teams page --------- */
+
+#teams-photo {
+    min-height: 600px;
+    background-image: url("../images/tour.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family:  serif;
+    position: relative;
+    box-shadow: 1px 1px 1px 2px #44fa46;
+}
+
+#teams-photo .overlay {
+    background-color: rgba(0, 0, 0, 0.36);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+#teams-photo .head-text {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    transform: translate(50% , 50%);
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+/* -------- End Teams page --------- */
+
+/* -------- Register form --------- */
+.register-form {
+    padding: 2px;
+}
+.register-form .row .col-sm { min-height: 600px;}
+.register-form .row .photo {
+    background-image: url("../images/sheid.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 1px 1px 1px 2px #44fa46;
+}
+
+.register-form .row .register-fields {
+    background-color: #e8e4e4;
+    padding-top: 10px;
+}
+
+/* -------- End Register form --------- */
+
+/* -------- Sheidsrechter page --------- */
+.fa-eye {
+    cursor: pointer;
+}
+
+
+
+/* -------- END Sheidsrechter page --------- */
+
+/* -------- Stadions page --------- */
+#stadions-photo {
+    min-height: 600px;
+    background-image: url("../images/bgg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family:  serif;
+    position: relative;
+    box-shadow: 1px 1px 1px 2px #44fa46;
+}
+#stadions-photo .head-text {
+    position: absolute;
+    left: 0%;
+    top: 40%;
+    transform: translate(50% , 50%);
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    color: #ffffff;
+    z-index: 1;
+}
+
+
+
+/* -------- End Stadions page --------- */
+
+/* -------- Players page --------- */
+#players-photo {
+    min-height: 600px;
+    background-image: url("../images/spelers.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family:  serif;
+    position: relative;
+    box-shadow: 1px 1px 1px 2px #44fa46;
+}
+#players-photo .head-text {
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    transform: translate(50% , 50%);
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    color: #ffffff;
+    z-index: 1;
+}
+
+
+
+/* -------- End Players page --------- */
+
+/* -------- Tournament page --------- */
+#tour-photo {
+    min-height: 450px;
+    background-image: url("../images/hdk3qa54sc651.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family:  serif;
+    position: relative;
+    box-shadow: 1px 1px 1px 2px #44fa46;
+
+}
+
+
+/* -------- End Players page --------- */
+
+/*----- footer --- */
+

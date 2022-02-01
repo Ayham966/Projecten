@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gimpies", "Gimpies\Gimpies.csproj", "{75A023C5-1E2E-4F63-BFE1-80E2C868BB22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75A023C5-1E2E-4F63-BFE1-80E2C868BB22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A023C5-1E2E-4F63-BFE1-80E2C868BB22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A023C5-1E2E-4F63-BFE1-80E2C868BB22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A023C5-1E2E-4F63-BFE1-80E2C868BB22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {310A1DD6-DEB7-4117-902B-586D4058F2F2}
+	EndGlobalSection
+EndGlobal

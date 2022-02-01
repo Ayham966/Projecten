@@ -1,0 +1,317 @@
+body {
+    background-color: #571a1a;
+}
+/* nav css */
+nav {
+    background-color: black;
+    /*box-shadow: 0 3px 3px -2px red;*/
+}
+.nav-item {
+    border-bottom: 1px solid darkred;
+
+}
+nav .navbar-brand {
+    font-size: 18pt;
+}
+nav a b{
+    color: red;
+    font-size: 20pt;
+}
+/* End nav css */
+
+/* Homa page css */
+.home-page {
+   background-color: black;
+    color: whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    min-height: 550px;
+}
+/*Home page images*/
+.carousel-item{
+    text-align: center;
+    min-height: 280px;
+}
+
+/*@media only screen and (min-width: 820px) {*/
+/*    .home-page {*/
+/*        width: 60%;*/
+/*    }*/
+/*}*/
+.film-info {
+    padding: 30px;
+}
+.carousel-item img{
+    border-radius: 30px;
+    box-shadow: 0 0 20px 5px black;
+}
+
+.carousel {
+    background-color: black;
+}
+
+.layout-margin-8 {
+    margin: 3% 8%;
+}
+
+.card-img-top-custom {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-shadow {
+    box-shadow: 0 0 28px 14px rgba(232,232,232,1);
+}
+
+.card-deck {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+.card {
+    padding: 3% 1.5%;
+    border: none;
+    max-width: 375px;
+    flex-grow: 1;
+}
+
+/* ------------------------------------------ */
+
+.card-container {
+    padding: 100px 0;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+
+
+.film-card {
+    max-width: 300px;
+    max-height: 500px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.film-card img {
+    transition: all 0.15s linear;
+}
+
+.film-card .film-name {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 15px 20px;
+    background: linear-gradient(140deg, rgba(0, 0, 0, 0.4) 50%, rgba(255, 255, 0, 0) 50%);
+    transition: all 0.15s linear;
+}
+
+.film-card .film-position {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.4);
+    left: 30px;
+    top: 100px;
+    transition: all 0.15s linear;
+}
+
+.film-card .film-overview {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 50%, rgba(255, 255, 0, 0));
+    color: #FFF;
+    padding: 50px 0 20px 0;
+    transition: all 0.15s linear;
+}
+
+.film-card .film-overview h3 {
+    font-weight: bold;
+}
+
+.film-card .film-overview p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.film-card:hover img {
+    filter: brightness(80%);
+}
+
+.film-card:hover .film-name {
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.film-card .film-position {
+    left: 40px;
+}
+
+.film-card .film-overview {
+    padding-bottom: 10%;
+    padding-left: 15%;
+}
+
+/*login page*/
+.card-login {
+    border: 2px solid black;
+    box-shadow: 0 0px 10px 0px white;
+}
+/*end login page*/
+
+/*---Genres page- #00000017--*/
+.genreContent {
+    background-color: #3d1e1e75;
+}
+/*---End Genres page---*/
+
+/*#desc_info {*/
+/*    display: none;*/
+/*}*/
+
+
+/* ---- Agenda page ----- */
+
+/* Dates */
+.agenda .agenda-date { width: 170px; }
+.agenda .agenda-date .dayofmonth {
+    width: 40px;
+    font-size: 36px;
+    line-height: 36px;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+}
+.agenda .agenda-date .shortdate {
+    font-size: 0.75em;
+}
+
+
+/* Times */
+.agenda .agenda-time { width: 140px; }
+
+
+/* Events */
+.agenda .agenda-events {  }
+.agenda .agenda-events .agenda-event {  }
+
+@media (max-width: 767px) {
+
+}
+
+/* ---- End Agenda page ----- */
+
+
+/* ---- overview page ---- */
+
+.overview-page {
+    color: whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    min-height: 550px;
+    background: black no-repeat center/cover;
+    text-align: center;
+    position: relative;
+}
+.overview-page .overview-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* --- AddToAgenda page ---- */
+.custom-addToAgenda {
+    background-color: #461919;
+}
+.child-addToAgenda {
+    background-color: black;
+    border:  solid white;
+    border-width:0 1px 1px 1px;
+}
+.container-addToAgenda .navbar {
+    border: solid white;
+    border-width:1px 1px 0 1px;
+}
+
+.custom-films-images {
+    margin: 10px;
+}
+
+.custom-films-images input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.custom-films-images label {
+    display: inline-block;
+    font-family: sans-serif, Arial;
+    border: 2px solid #444;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.custom-films-images label:hover {
+    background-color: rgba(96, 24, 24, 0.32);
+}
+
+.custom-films-images input[type="radio"]:checked + label {
+    background-color: #461919;
+    border-color: #0fe30f;
+}
+
+/*---- agenda page -----*/
+.agenda {
+    box-shadow: -10px -10px #beb4b4;
+}
+
+
+/*---- reserve page -----*/
+
+.seat , .disabeldSeat{
+    height: 40px;
+    width: 40px;
+    border: 1px solid gray;
+    cursor: pointer;
+    transform: skew(10deg);
+    margin: 5px 2px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+}
+.seat {
+    background: linear-gradient(to top, #761818, #761818, #761818, #761818, #761818, #B54041, #F3686A);
+}
+.disabeldSeat {
+    background: #383232;
+}
+
+.walk{
+    padding-left:10px;
+}
+
+.squares .square {
+    height: 30px;
+    width: 30px;
+}
+.squares span {
+    margin: 0 15px;
+    color: #6dea81;
+}
+.square.square-available {
+    background: linear-gradient(to top, #761818, #761818, #761818, #761818, #761818, #B54041, #F3686A);
+}
+.square.square-disable {
+    background: #383232;
+}
+.square.square-selected {
+    background: white;
+}

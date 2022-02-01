@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0 ;
+}
+html , body {
+    height: 100%;
+    width: 100%;
+}
+.cos {
+    background-color: #2F3B59 !important;
+}
+.mr-auto .nav-item:hover{
+    padding: 1px;
+    border-bottom: 2px #7ddcff solid;
+    transition: 0.5s;
+}
+
+footer {
+    background-color: #2F3B59 ;
+}
+
+.btn-outline-success {
+    color: #7ddcff;
+    border-color: #7ddcff;
+}
+
+.fa-sign-in {
+    color: seagreen !important;
+    font-size: 13pt;
+    margin-left: 25px;
+    border-left: 2px solid seagreen;
+}
+
+h5 {
+    color: #dddddd
+}
+
+#copy { color: seagreen;}
+.container label{ width: 100%;}
+.container label span { color: blue; }
+.c1 {
+    min-height: 700px;
+    margin: 1px auto  !important;
+}
+
+#home-photo {
+    min-height: 600px;
+    background-image: url("../images/content2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family:  serif;
+    position: relative;
+    box-shadow: 5px 5px 10px 2px seagreen;
+}
+
+#home-photo .overlay {
+    background-color: rgba(0,0,0,.1);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+#home-photo .head-text {
+    position: absolute;
+    left: 12%;
+    top: 24%;
+    transform: translate(25% , 75%);
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    color: white;
+    z-index: 2;
+}
+
+#home-photo .head-text h1 b {
+    color: saddlebrown;
+}
+
+.about-us {
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.about-us h1 { color: seagreen; }
+.about-us p {
+    text-align: left;
+    font-family: Verdana,
+    sans-serif;
+}
+.avatar {
+    width: 100%;
+    text-align: center
+}
+
+/*-------- Books page  -----*/
+
+a {
+    text-decoration: none !important
+}
+.card-product-list,
+.card-product-grid {
+    margin-bottom: 0
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.10rem;
+    margin-top: 10px
+}
+
+.card-product-grid:hover {
+    -webkit-box-shadow: 0 4px 15px rgba(153, 153, 153, 0.3);
+    box-shadow: 0 4px 15px rgba(153, 153, 153, 0.3);
+    -webkit-transition: .3s;
+    transition: .3s
+}
+
+.card-product-grid .img-wrap {
+    border-radius: 0.2rem 0.2rem 0 0;
+    height: 220px;
+}
+
+.card .img-wrap {
+    overflow: hidden
+}
+
+.card-lg .img-wrap {
+    height: 280px
+}
+
+.card-product-grid .img-wrap {
+    border-radius: 0.2rem 0.2rem 0 0;
+    height: 228px;
+    padding: 16px
+}
+
+[class*='card-product'] .img-wrap img {
+    height: 100%;
+    max-width: 100%;
+    display: inline-block;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.img-wrap {
+    text-align: center;
+    display: block
+}
+
+.card-product-grid .info-wrap {
+    overflow: hidden;
+    padding: 18px 20px
+}
+
+[class*='card-product'] a.title {
+    color: #212529;
+    display: block
+}
+.writer { font-size: 11pt; color: seagreen;}
+
+.card-product-grid .bottom-wrap {
+    padding: 18px;
+    border-top: 1px solid #e4e4e4
+}
+
+.btn-primary {
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.45rem 0.85rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    color: #fff;
+    background-color: #3167eb;
+    border-color: #3167eb
+}
+
+.row .fa {
+    color: #FF5722
+}
+/*------- Model sign up -----*/
+.modal-header {
+    display: inline;
+}
+.modal-header h5 {
+    text-align: center;
+    font-family: Cambria, serif;
+    color: midnightblue;
+    font-size: 22pt;
+}
+.modal-content .form-group label{ border: none ; padding:0 ; }
+.modal-content .form-group .form-check { display: inline; }
+#cusSignup { min-width: 400px;}
+#cusSignup .form-group { min-width: 300px;}
+
+/*----- myBooks page ------*/
+
+.table-image { font-size: 12pt;}
+.mybooks .table-image  td, th {
+    vertical-align: middle;
+}
+.table-image  thead { background-color: snow;}
+tbody tr th { color: darkslateblue;}
+
+
+/*----- Product Edit ----*/
+.c3 { padding: 5px; background-color: snow}
+.c3-right { background-color: #4fafd1;}
+
+
+
+/*----- Ehab ----*/
+
+@-webkit-keyframes MOVE-BG {
+    from {
+        -webkit-transform: translateX(0);
+    }
+    to {
+        -webkit-transform: translateX(46px);
+    }
+}
+
+@keyframes MOVE-BG {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(46px);
+    }
+}
+
+
+.loading {
+    height: auto;
+    text-align: center;
+    color: #4c3f2e;
+    position: relative;
+    overflow: hidden;
+    padding: 3px;
+
+    font-style: italic;
+}
+
+.bg2{
+    position: absolute;
+    left: -46px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+
+    background: -webkit-repeating-linear-gradient(
+            145deg,
+            #e7e5ff 1px,
+            #c3c1f0 2px,
+            #c3c1f0 11px,
+            #e7e5ff 12px,
+            #e7e5ff 20px
+    );
+    background: repeating-linear-gradient(
+            -55deg,
+            #e7e5ff 1px,
+            #c3c1f0 2px,
+            #c3c1f0 11px,
+            #e7e5ff 12px,
+            #e7e5ff 20px
+    );
+
+    -webkit-animation-name: MOVE-BG;
+    -webkit-animation-duration: .6s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    animation-name: MOVE-BG;
+    animation-duration: .6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
